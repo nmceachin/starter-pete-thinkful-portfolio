@@ -113,4 +113,7 @@ hr {
 .text.left {
   text-align: left;
 }
-
+.portfolio-section {
+  display: flex;
+  justify-content: space-between;
+}
