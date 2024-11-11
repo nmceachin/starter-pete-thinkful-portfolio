@@ -41,7 +41,8 @@ article div {
 /* Paragraphs */
 p {
   line-height: 1.5;
-}
+ }
+.h {padding: 0 300px}
 
 /* Links */
 a:link {
@@ -91,14 +92,25 @@ hr {
   margin: 0 auto px;
   padding: 0px;
   align-items: center;
- 
-}
+ }
 
-.about {
-display: flex;
-justify-content: left;
+.about-section .flex-container {
+  display: flex;
+  align-items: center;
+  padding : 0 200px
 }
+.about-section .image-circle {
 
-.text-left {
+  margin-right: 20px;
+}
+.about-section .text-section {
   text-align: left;
 }
+.about-section .right-align {
+  text-align: left;
+}
+
+.text.left {
+  text-align: left;
+}
+
