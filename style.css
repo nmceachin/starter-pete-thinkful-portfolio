@@ -99,6 +99,6 @@ display: flex;
 justify-content: left;
 }
 
-.text.left {
+.text-left {
   text-align: left;
 }
