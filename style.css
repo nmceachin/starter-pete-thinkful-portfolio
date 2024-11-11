@@ -19,6 +19,7 @@ h3 {
 /* Header */
 header {
   text-align: center;
+  margin: 20px;
 }
 
 /* Containers */
@@ -75,4 +76,29 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+/* Groups and items */
+
+.group {
+  display: flex;
+  flex-direction: row;
+  align-items:center;  
+  justify-content:center;
+}
+
+.item {
+  margin: 0 auto px;
+  padding: 0px;
+  align-items: center;
+ 
+}
+
+.about {
+display: flex;
+justify-content: left;
+}
+
+.text.left {
+  text-align: left;
 }
