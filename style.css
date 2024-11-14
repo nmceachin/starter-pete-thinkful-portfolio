@@ -16,10 +16,13 @@ h3 {
   text-align: center;
 }
 
-/* Header */
+/* Header*/
 header {
-  text-align: center;
-  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+
 }
 
 /* Containers */
@@ -33,8 +36,14 @@ article {
   padding: 50px 0;
 }
 
-article div {
+/*article div {
   text-align: center;
+  width: 100%;
+}
+*/
+
+article div {
+  
   width: 100%;
 }
 
@@ -42,7 +51,7 @@ article div {
 p {
   line-height: 1.5;
  }
-.h {padding: 0 300px}
+/*.h {padding: 0 300px}*/
 
 /* Links */
 a:link {
@@ -81,7 +90,7 @@ hr {
 
 /* Groups and items */
 
-.group {
+/*.group {
   display: flex;
   flex-direction: row;
   align-items:center;  
@@ -116,4 +125,19 @@ hr {
 .portfolio-section {
   display: flex;
   justify-content: space-between;
+} */
+
+.about {
+  display:flex;
+  text-align: left;
+}
+
+.portfolio {
+  display:flex;
+  text-align: center;
+}
+
+.portfolio section {
+  padding: 5px;
+  font-size: 14px;
 }
